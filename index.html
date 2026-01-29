@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Shared Teacher Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>📅 Shared Teacher Test Calendar</h1>
+
+<div class="form">
+  <input type="date" id="date">
+  <input type="text" id="subject" placeholder="Subject">
+  
+  <select id="urgency">
+    <option value="super">Super Urgent</option>
+    <option value="little">Little Urgent</option>
+    <option value="flexible">Flexible</option>
+  </select>
+
+  <button onclick="addTest()">Add Test</button>
+</div>
+
+<h2>Calendar Overview</h2>
+<div id="calendar"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
